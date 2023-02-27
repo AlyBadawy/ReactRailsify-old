@@ -1,5 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom/client';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+import { Provider } from 'react-redux';
+import { store } from '../store/store';
 import { App } from './App';
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -7,7 +11,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const root = ReactDOM.createRoot(rootEl!);
   root.render(
     <React.StrictMode>
-      <App />
+      <Provider store={store}>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/*" element={<App />} />
+          </Routes>
+        </BrowserRouter>
+      </Provider>
     </React.StrictMode>
   );
 });
