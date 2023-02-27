@@ -16,8 +16,8 @@ Before getting started with the application, ensure that you have the following 
 To get started, clone the repository and install the dependencies:
 
 ```
-git clone git@github.com:AlyBadawy/complex-rails.git
-cd complex-rails
+git clone git@github.com:AlyBadawy/ReactRailsify.git
+cd ReactRailsify
 bundle install
 yarn install
 ```
