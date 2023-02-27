@@ -8,6 +8,7 @@ ruby '3.2.0'
 gem 'rails', '~> 7.0.4', '>= 7.0.4.2'
 
 gem "bcrypt"
+gem "hashdiff"
 gem 'jbuilder'
 gem 'jsbundling-rails'
 gem "jsonapi.rb"
