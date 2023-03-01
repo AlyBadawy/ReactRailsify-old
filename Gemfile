@@ -12,6 +12,7 @@ gem "hashdiff"
 gem 'jbuilder'
 gem 'jsbundling-rails'
 gem "jsonapi.rb"
+# gem 'json_response', '~> 1.0', '>= 1.0.1'
 gem "jwt"
 gem 'lograge'
 gem 'paper_trail'

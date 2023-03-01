@@ -187,6 +187,9 @@ Rails/ApplicationController:
 Rails/FilePath:
   Enabled: false
 
+Rails/ResponseParsedBody:
+  Enabled: false
+
 RSpec:
   Enabled: true # enable rubocop-rspec cops
 RSpec/DescribeClass:
